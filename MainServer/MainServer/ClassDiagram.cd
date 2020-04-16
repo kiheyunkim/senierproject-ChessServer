@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="IocpManager" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAACAAAAIIACAAgAIAAgASQAAAAAAAAIgDpAEQIAAQ=</HashCode>
+      <FileName>IocpManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SessionManager" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAIAAAAAAAECAAAAAABQAAQAEAAAAAAAA=</HashCode>
+      <FileName>SessionManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NetworkSession" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAQFAAgABFiBAABgBAQAADAAMAAAAAARAgBAAAAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Encryption" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAEAAAAMACAAEAAIAQAAAAAEEBgA=</HashCode>
+      <FileName>Encryption.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MySql" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAgEAAAAARAAAAACBAAAAhAoAAEAAAIAAAA=</HashCode>
+      <FileName>MySql.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CircularBuffer" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQBAEQEACQAgACAIAAABIAASAAAAIAAAAAAIAAgGAA=</HashCode>
+      <FileName>CircularBuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventSync" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAIAAAAAAAAAAAAAAAAAAEEAACAAAAAAAAAAAA=</HashCode>
+      <FileName>CriticalSection.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Log" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Log.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemoryPool&lt;T, ALLOC_BLOCK_SIZE&gt;" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAQAAAACAAAAAIAAAAAAAAgA=</HashCode>
+      <FileName>MemoryPool.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Crypt" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Crypt.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Packet" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIEYABEAgAAAAABAAESAAAAgAAAQAAgAAQCAAAQCA=</HashCode>
+      <FileName>Packet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketIO" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQACABAACACAgAQAAACgIBAAQAAAAACgAAAAAA=</HashCode>
+      <FileName>PacketIO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stream" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAgAACAgAAAAIAAAAAAIIAAgCgAAAAAAAAA=</HashCode>
+      <FileName>Stream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketLoginContent" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAAAACAAAAAACAAAwgAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>PacketContent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketJoinContent" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAIAAEAAgAAAAAACAAAwgAAAAgAAAAAARAAAAAAAAA=</HashCode>
+      <FileName>PacketContent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketPeiceContent" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAABAAAAAAAQAAAAAAAAABAAEBAAAAAAgAE=</HashCode>
+      <FileName>PacketContent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketMessageContent" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAAAAAAAAAAQAAAAEgAAAIEAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>PacketContent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PacketStream" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAQAAAIAAAAAAEAADAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>PacketStream.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="OverlappedIOContext" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAIAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OverlappedSendContext" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OverlappedRecvContext" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OverlappedPreRecvContext">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OverlappedAcceptContext">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OverlappedDisconnectContext" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="REQUEST_TYPE" Collapsed="true">
+    <Position X="12" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Protocol.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="IOType" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAEAAAAAAAAAAAAAgAAAAAAAAAAAABAAAgAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DisconnectReason" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAABAAAkAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>NetworkSession.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="PACKET_TYPE" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABEQAAAAAEAAAQAAAAAAAAAIAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Protocol.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="REQUESTED_PIECE_TYPE" Collapsed="true">
+    <Position X="17.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAgAACAAAAgAAAAAABQgAAAAAAsFAgIAAAg=</HashCode>
+      <FileName>Protocol.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,23 @@
+﻿  ChannelSelectDialog.cpp
+c:\users\kihey\documents\visual studio 2017\projects\chessclient\chessclient\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  ChessClient.cpp
+c:\users\kihey\documents\visual studio 2017\projects\chessclient\chessclient\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  ChildView.cpp
+c:\users\kihey\documents\visual studio 2017\projects\chessclient\chessclient\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  WaitRoomDialog.cpp
+c:\users\kihey\documents\visual studio 2017\projects\chessclient\chessclient\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  JoinDialog.cpp
+c:\users\kihey\documents\visual studio 2017\projects\chessclient\chessclient\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  LoginDialog.cpp
+c:\users\kihey\documents\visual studio 2017\projects\chessclient\chessclient\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  MainFrm.cpp
+c:\users\kihey\documents\visual studio 2017\projects\chessclient\chessclient\resource.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  Packet.cpp
+  PacketIO.cpp
+  Stream.cpp
+  코드를 생성하고 있습니다.
+  5 of 766 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  ChessClient.vcxproj -> C:\Users\kihey\Documents\Visual Studio 2017\Projects\ChessClient\Release\ChessClient.exe

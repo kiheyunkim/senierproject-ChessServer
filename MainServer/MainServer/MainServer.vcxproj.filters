@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{8b6aa7f0-90cb-4bd3-8187-f10f8c9c4864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d29177f0-9ba4-424b-9796-bb88958476d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet Generator">
+      <UniqueIdentifier>{84052f5b-4cc1-4f05-b3f5-2ca55e44162f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="For Session">
+      <UniqueIdentifier>{8fc1a0af-9149-4506-84cc-6d5505d2a5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocols">
+      <UniqueIdentifier>{8bc9d042-4b00-472b-8d64-1bdc87098607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ServerPackets">
+      <UniqueIdentifier>{9abc3ffa-f62b-4137-8843-97c90d6473c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="CriticalSection.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketIO.h">
+      <Filter>Packet Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Packet Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="IocpManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SessionManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkSession.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRoom.h">
+      <Filter>For Session</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRoomManager.h">
+      <Filter>For Session</Filter>
+    </ClInclude>
+    <ClInclude Include="MySqlManager.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MysqlQuery.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="Encryption.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginServerProtocol.h">
+      <Filter>Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginPacket.h">
+      <Filter>ServerPackets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Packet Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketIO.cpp">
+      <Filter>Packet Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Packet Generator</Filter>
+    </ClCompile>
+    <ClCompile Include="IocpManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkSession.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRoom.cpp">
+      <Filter>For Session</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRoomManager.cpp">
+      <Filter>For Session</Filter>
+    </ClCompile>
+    <ClCompile Include="MySqlManager.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MysqlQuery.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Encryption.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginPacket.cpp">
+      <Filter>ServerPackets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

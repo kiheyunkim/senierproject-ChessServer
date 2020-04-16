@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ChessPiece">
+      <UniqueIdentifier>{d957e2ea-ebfe-46b2-87ad-51d6cbfc546d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{74d9c143-6ff3-4cf9-a117-f1315ca7024b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet Gernerator">
+      <UniqueIdentifier>{7aa2d763-d2b0-4feb-b6d7-1bcebb20a43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{1cabbcc4-84ab-4d0b-8a91-b816cbf90f09}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChessClient.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="Rook.h">
+      <Filter>ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessObject.h">
+      <Filter>ChessPiece</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt.h">
+      <Filter>Packet Gernerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet Gernerator</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketIO.h">
+      <Filter>Packet Gernerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>Packet Gernerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream.h">
+      <Filter>Packet Gernerator</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelSelectDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitRoomDialog.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChessClient.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.cpp">
+      <Filter>ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="King.cpp">
+      <Filter>ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.cpp">
+      <Filter>ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.cpp">
+      <Filter>ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="Rook.cpp">
+      <Filter>ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessObject.cpp">
+      <Filter>ChessPiece</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.cpp">
+      <Filter>Packet Gernerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Packet Gernerator</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketIO.cpp">
+      <Filter>Packet Gernerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream.cpp">
+      <Filter>Packet Gernerator</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelSelectDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitRoomDialog.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ChessClient.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ChessClient.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ChessClient.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
